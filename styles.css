@@ -20,21 +20,34 @@ body {
     border-left: 6px solid #009FB7;  
     border-radius: 10px;
     box-shadow: 2px 2px lightblue;    
+    
 }
 
 .card:hover {
     background: #2b2839;
     color: #FED766;
+    animation-name: background-transition;
+    animation-duration: 2s;
 }
 
 .info {
     margin: auto 0px;
 }
+
+@keyframes background-transition {
+    from {
+        background: #FED766;
+        color: #2b2839;
+    }
+    to {
+        background: #2b2839;
+        color: #FED766;
+    }
+}
 /*
 Stretch goals:
 Find other ways you can personalize 
 the design of your business card, e.g.:
-- hover effects  🤯🤯
 - animations     🤯🤯🤯
 */
 
