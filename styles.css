@@ -22,6 +22,11 @@ body {
     box-shadow: 2px 2px lightblue;    
 }
 
+.card:hover {
+    background: #2b2839;
+    color: #FED766;
+}
+
 .info {
     margin: auto 0px;
 }
@@ -29,7 +34,6 @@ body {
 Stretch goals:
 Find other ways you can personalize 
 the design of your business card, e.g.:
-- shadows        🤯
 - hover effects  🤯🤯
 - animations     🤯🤯🤯
 */
