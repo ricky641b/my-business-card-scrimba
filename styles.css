@@ -24,8 +24,6 @@ body {
 }
 
 .card:hover {
-    background: #2b2839;
-    color: #FED766;
     animation-name: background-transition;
     animation-duration: 2s;
 }
@@ -44,10 +42,3 @@ body {
         color: #FED766;
     }
 }
-/*
-Stretch goals:
-Find other ways you can personalize 
-the design of your business card, e.g.:
-- animations     🤯🤯🤯
-*/
-
